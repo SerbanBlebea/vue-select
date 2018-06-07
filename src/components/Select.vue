@@ -73,7 +73,7 @@
     padding: 0;
     background: none;
     border: 1px solid rgba(60, 60, 60, .26);
-    border-radius: 4px;
+    border-radius: 0px;
     white-space: normal;
   }
   .v-select .dropdown-toggle:after {
@@ -346,13 +346,13 @@
               aria-label="Search for option"
       >
 
-      <button 
-        v-show="showClearButton" 
-        :disabled="disabled" 
+      <button
+        v-show="showClearButton"
+        :disabled="disabled"
         @click="clearSelection"
-        type="button" 
-        class="clear" 
-        title="Clear selection" 
+        type="button"
+        class="clear"
+        title="Clear selection"
       >
         <span aria-hidden="true">&times;</span>
       </button>
