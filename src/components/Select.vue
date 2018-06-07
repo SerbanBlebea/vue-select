@@ -127,7 +127,7 @@
     border: 1px solid rgba(0, 0, 0, .26);
     box-shadow: 0px 3px 6px 0px rgba(0,0,0,.15);
     border-top: none;
-    border-radius: 0 0 4px 4px;
+    border-radius: 0px;
     text-align: left;
     list-style: none;
     background: #fff;
@@ -140,7 +140,7 @@
     color: #333;
     background-color: #f0f0f0;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 0px;
     height: 26px;
     margin: 4px 1px 0px 3px;
     padding: 1px 0.25em;
@@ -261,7 +261,7 @@
   }
   .v-select .spinner,
   .v-select .spinner:after {
-    border-radius: 50%;
+    border-radius: 0%;
     width: 5em;
     height: 5em;
   }
